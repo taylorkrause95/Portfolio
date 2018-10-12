@@ -7,9 +7,11 @@ class Main extends Component {
     let classes = this.props.imgName + " portfolio-img" ;
 
     return(
-      <div>
-        <h2>{ this.props.title }</h2>
-        <div className={ classes } ></div>
+      <div class="homepagetwo">
+        <h2>My Projects</h2>
+        <h3>These are some of my projects:</h3>
+        <p>Dog Finder - A way to look through dogs that are available for adoption.</p>
+        <p>Synergy - A way to find a workout partner that is in your area and has similiar interests to you.</p>
         <p>{ this.props.description }</p>
       </div>
     )

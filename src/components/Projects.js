@@ -8,7 +8,6 @@ class Projects extends Component {
     return(
       <div>
         <h2>{ this.props.title }</h2>
-        <div className={ classes } ></div>
         <p>{ this.props.description }</p>
       </div>
     )

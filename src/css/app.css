@@ -15,6 +15,25 @@ font-family: 'Contrail One', cursive;
 font-family: 'Work Sans', sans-serif;
 */
 
+.homepage {
+  color: white;
+  background: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+  font-size: 25px;
+}
+
+.homepagetwo {
+  background-color: white;
+  color:black;
+  font-size: 25px;
+  border: 2px solid black;
+  width: inherit;
+  height: inherit;
+}
+
+.card-body {
+  border: 2px solid black;
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
   text-align: center;

@@ -4,7 +4,7 @@ import '../css/app.css'
 export default class Home extends Component {
   render(){
     return(
-      <div>
+      <div class="homepage">
         <h1>My Portfolio</h1>
         <h2>My name is Taylor Krause!</h2>
         <br  />

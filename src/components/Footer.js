@@ -8,7 +8,8 @@ class Footer extends Component {
     return(
       <div>
         <h2>{ this.props.title }</h2>
-        <div className={ classes } ></div>
+        <h4>Taylor@Brainstormtech.io</h4>
+        <h4>Www.GitHub.com/taylorkrause95</h4>
         <p>{ this.props.description }</p>
       </div>
     )
